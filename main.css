@@ -25,6 +25,9 @@ html, body {height: 100%}
 /*	border-bottom-style: solid;
 	border-bottom-color: #000000;
 	border-bottom-width: 1px; */
+	position:fixed;
+	width: 100%;
+	top: 0;
 	box-shadow: 0em 1em 1em #EEF7F0;
 }
 
