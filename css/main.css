@@ -1,3 +1,8 @@
+.navbar-custom {
+	background-color: #1a0d00;
+}
+
+
 /* -------------------------------- 
 most of this was adapted from https://codepen.io/icarlosmendez/pen/tGHic
 Primary style
@@ -16,8 +21,8 @@ html * {
 
 body {
   font-size: 100%;
-  font-family: "Roboto", sans-serif;
-  color: #3d3536;
+  font-family: "Palatino Linotype", Palatino, serif;
+  color: #301386;
   background-color: white;
   padding-top:5rem;
 }
@@ -119,17 +124,13 @@ Modules - reusable parts of our design
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
-.cd-scrolling-bg.cd-color-1 {
-  background-color: #3d3536;
-  color: #a6989a;
+
+.cd-scrolling-bg.cd-color {
+
+  background-color: white;
+  color: black;
 }
-.cd-scrolling-bg.cd-color-2 {
-  background-color: #3d3536;
-  color: #a6989a;
-}
-.cd-scrolling-bg.cd-color-3 {
-  background-color: #3d3536;
-  color: #a6989a;
+
 }
 @media only screen and (min-width: 480px) {
   .cd-scrolling-bg {
@@ -143,5 +144,5 @@ Modules - reusable parts of our design
 
 
 section {
-	padding-top: 28rem;
+	padding-top: 21rem;
 }
